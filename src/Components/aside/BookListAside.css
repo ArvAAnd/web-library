@@ -1,0 +1,11 @@
+aside{
+    border-right: 1px gray solid;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-top: 1%;
+}

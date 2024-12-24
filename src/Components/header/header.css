@@ -1,0 +1,31 @@
+header{
+    height: 10%;
+    background-color: #6b9900;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .guide-button{
+    height: 50px;
+    width: 50px;
+    
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    margin-left: 1vw;
+  }
+  
+  .guide-button:hover{
+    background-color: #00000010;
+  }
+.logo{
+    height: 5vh;
+    width: 10vw;
+}
+.header-midle-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    font-size: 3vh;
+}
