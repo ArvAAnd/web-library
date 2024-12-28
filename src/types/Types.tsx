@@ -6,6 +6,12 @@ export type BookType = {
     genre: string,
     imageUrl: string
 }
+
+export type BookFromType = {
+    id: number,
+    title: string,
+}
+
 export type BookListType = BookType[]
 
 export type User = {

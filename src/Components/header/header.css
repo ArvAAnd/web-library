@@ -1,10 +1,14 @@
 header{
-    height: 10%;
-    background-color: #6b9900;
+    height: 10vh;
+    background-color: #3b8864;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    position:fixed;
+    top:0;
   }
+
   .guide-button{
     height: 50px;
     width: 50px;
