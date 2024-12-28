@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dilib/static/css/main.70bee765.css",
+    "main.js": "/dilib/static/js/main.2ce2ccbe.js",
+    "index.html": "/dilib/index.html",
+    "main.70bee765.css.map": "/dilib/static/css/main.70bee765.css.map",
+    "main.2ce2ccbe.js.map": "/dilib/static/js/main.2ce2ccbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70bee765.css",
+    "static/js/main.2ce2ccbe.js"
+  ]
+}
