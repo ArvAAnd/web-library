@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dilib/static/css/main.70bee765.css",
-    "main.js": "/dilib/static/js/main.2ce2ccbe.js",
-    "index.html": "/dilib/index.html",
-    "main.70bee765.css.map": "/dilib/static/css/main.70bee765.css.map",
-    "main.2ce2ccbe.js.map": "/dilib/static/js/main.2ce2ccbe.js.map"
+    "main.css": "/web-library/static/css/main.70bee765.css",
+    "main.js": "/web-library/static/js/main.314075cb.js",
+    "index.html": "/web-library/index.html",
+    "main.70bee765.css.map": "/web-library/static/css/main.70bee765.css.map",
+    "main.314075cb.js.map": "/web-library/static/js/main.314075cb.js.map"
   },
   "entrypoints": [
     "static/css/main.70bee765.css",
-    "static/js/main.2ce2ccbe.js"
+    "static/js/main.314075cb.js"
   ]
 }
