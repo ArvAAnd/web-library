@@ -7,17 +7,25 @@ const server = "https://dilib-host.loca.lt"
 export const Connect = {
     async saveHTML(formData) {
         return axios.post(`${server}/add-book`, formData, {
-            headers: { "Content-Type": "multipart/form-data" }
+            headers: { "Content-Type": "multipart/form-data",
+                "tunnel-password": "195.28.31.206"
+             }
           })
     },
     async getHTML(id) {
         return axios.get(`${server}/get-html/${id}`, {
-            responseType: "text", // Получаем текст, а не поток
+            responseType: "text", // Получаем текст, а не потокб
+            headers: {
+                "tunnel-password": "195.28.31.206" // Добавьте пароль здесь
+              }
           })
     },
     async getBooks(){
         return axios.get(`${server}/get-all-books`, {
             responseType: "json", // Получаем JSON, а не поток
+            headers: {
+                "tunnel-password": "195.28.31.206" // Добавьте пароль здесь
+              }
           })
     }
 }
