@@ -6,10 +6,10 @@ import { BookPage } from "./Components/bookPage/BookPage.tsx";
 import { BookListAll } from "./Components/aside/links/BookListAll.tsx";
 
 export const routes = {
-    bookPage: "/book",
-    genres: "/genres",
-    favorite: "/favorite",
-    default: "/",
+    bookPage: "/dilib/book",
+    genres: "/dilib/genres",
+    favorite: "/dilib/favorite",
+    default: "/dilib/",
 }
 
 export const Router = () => {
