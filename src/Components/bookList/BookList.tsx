@@ -2,7 +2,7 @@ import React from "react"
 import { Aside } from "../aside/BookListAside.tsx"
 import "./BookList.css"
 import { Router } from "../../Router.tsx"
-import { useStoreActiveMain } from "../../Helpers/Storages/StoreActiveMain.tsx"
+import { useStoreActiveMain } from "../../Helpers/Storages/StoreActiveMain.ts"
 
 export const BookList = () => {
     const {isActive, setActive} = useStoreActiveMain()

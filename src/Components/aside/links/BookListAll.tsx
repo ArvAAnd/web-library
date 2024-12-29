@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react"
 //import {getBooks} from "../../../getBooks.ts"
 import { BookFromType, BookListType } from "../../../types/Types.tsx"
 import { Book } from "../../Book.tsx"
-import { Connect } from "../../../Helpers/Connect.tsx"
+import { Connect } from "../../../Helpers/connect.ts"
 import { Modal } from "antd";
 import { useForm } from "react-hook-form"
-import { useStoreBooks } from "../../../Helpers/Storages/storeBooks.tsx";
+import { useStoreBooks } from "../../../Helpers/Storages/storeBooks.ts";
 
 
 
@@ -71,17 +71,17 @@ export const BookListAll = () => {
     return(
         <main>
             <h1>Your Books</h1>
-            <selection className="main-category">
+            <section className="main-category">
                 <article className="">
                     <button className="main-element main-element-add" onClick={() => setVisible(true)}>
                         +
                     </button>
                 </article>
                 {bookList.map(book => (
-                    <Book {...book}/>
+                    <Book key={book.id} book={book}/>
                 ))}
-            </selection>
-            <Modal title="Upload File" visible={visible} onOk={handleSubmit(onSubmit)} onCancel={() => {setVisible(false); reset(); setLoading(false); }}>
+            </section>
+            <Modal title="Upload File" open={visible} onOk={handleSubmit(onSubmit)} onCancel={() => {setVisible(false); reset(); setLoading(false); }}>
                 <form>     
                     <p>Choose a file to upload:</p>
                     <input type="file" accept=".fb2" {...register('file', {required: 'file is required'})}/>

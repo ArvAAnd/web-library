@@ -1,13 +1,11 @@
 import React, {useEffect, useState} from "react"
 import { useParams } from "react-router-dom"
 import "./BookPage.css"
-import { Connect } from "../../Helpers/Connect.tsx"
+import { Connect } from "../../Helpers/connect.ts"
 import { BookType } from "../../types/Types"
-import axios from "axios"
 
 export const BookPage = () => {
   const { id } = useParams()
-  const [file, setFile] = useState<File | null>(null)
   const [content, setContent] = useState<string>("")
   const [loading, setLoading] = useState<boolean>(false)
   

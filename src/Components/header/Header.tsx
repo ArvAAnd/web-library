@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import "./header.css"
-import { useAside } from "../../Helpers/Storages/storageAside.tsx"
-import { useStoreActiveMain } from "../../Helpers/Storages/StoreActiveMain.tsx";
+import { useAside } from "../../Helpers/Storages/storageAside.ts"
+import { useStoreActiveMain } from "../../Helpers/Storages/StoreActiveMain.ts";
 
 export const Header = () => {
     const {asideVisible, setAsideVisible, mainMargin, setMainMargin} = useAside();

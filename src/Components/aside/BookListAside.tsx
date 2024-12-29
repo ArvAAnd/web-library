@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import "./BookListAside.css"
-import { useAside } from "../../Helpers/Storages/storageAside.tsx"
+import { useAside } from "../../Helpers/Storages/storageAside.ts"
 import { routes } from "../../Router.tsx"
 
 export const Aside = () => {
