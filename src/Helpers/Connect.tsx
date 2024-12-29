@@ -8,7 +8,8 @@ export const Connect = {
     async saveHTML(formData) {
         return axios.post(`${server}/add-book`, formData, {
             headers: { "Content-Type": "multipart/form-data",
-                "tunnel-password": "195.28.31.206"
+                "tunnel-password": "195.28.31.206", // Добавьте пароль здесь
+                "bypass-tunnel-reminder": "true"
              }
           })
     },
@@ -25,7 +26,8 @@ export const Connect = {
         return axios.get(`${server}/get-all-books`, {
             responseType: "json", // Получаем JSON, а не поток
             headers: {
-                "tunnel-password": "195.28.31.206" // Добавьте пароль здесь
+                "tunnel-password": "195.28.31.206" , // Добавьте пароль здесь
+                "bypass-tunnel-reminder": "true"
               }
           })
     }
