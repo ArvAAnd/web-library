@@ -9,7 +9,8 @@ export const BookList = () => {
     return (<div className="content">
     
         <Aside />
-        <div className={isActive ? "active" : "inactive"} >
+        {/* <div className={isActive ? "active" : "inactive"} > */}
+        <div>
             <Router />
         </div>
     </div>

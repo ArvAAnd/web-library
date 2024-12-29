@@ -16,8 +16,9 @@ export const Connect = {
         return axios.get(`${server}/get-html/${id}`, {
             responseType: "text", // Получаем текст, а не потокб
             headers: {
-                "tunnel-password": "195.28.31.206" // Добавьте пароль здесь
-              }
+                "tunnel-password": "195.28.31.206", // Добавьте пароль здесь
+                "bypass-tunnel-reminder": "true"
+            }
           })
     },
     async getBooks(){
