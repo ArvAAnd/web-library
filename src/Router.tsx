@@ -16,7 +16,7 @@ export const Router = () => {
     return (
         <Routes>
             {/* <Route path="/" element={< />} /> */}
-            <Route path={`${routes.bookPage}/:id`} element={<BookPage />} />
+            <Route path={`${routes.bookPage}/:id/page/:page`} element={<BookPage />} />
             <Route path={routes.genres} element={<Genres />} />
             <Route path={routes.favorite} element={<Favorite />} />
             <Route path={routes.default} element={<BookListAll />} />

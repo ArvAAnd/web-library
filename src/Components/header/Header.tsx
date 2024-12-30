@@ -9,7 +9,7 @@ export const Header = () => {
     const [guideBtn, setGuideBtn] = useState("≡");
     const [guideBtnSize, setGuideBtnSize] = useState("3vh");
     const printHello = () =>{
-        console.log("hello")
+        //console.log("hello")
         setGuideBtn(guideBtn === "≡" ? "◄" : "≡");
         setGuideBtnSize("3vh" === guideBtnSize ? "2vh" : "3vh");
         setAsideVisible(!asideVisible);

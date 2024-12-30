@@ -24,7 +24,7 @@ export const BookListAll = () => {
             setLoading(true)
             try {
                 const response = await Connect.getBooks()
-                console.log(response.data)
+                //console.log(response.data)
                 setBookList(response.data)
             } catch (error) {
                 console.error("Ошибка при загрузке книг:", error)

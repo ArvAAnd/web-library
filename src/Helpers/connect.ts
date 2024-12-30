@@ -6,8 +6,8 @@ export const Connect = {
     async saveHTML(formData) {
         return axiosConfig.post(`add-book`, formData)
     },
-    async getHTML(id) {
-        return axiosConfig.get(`get-html/${id}`, {
+    async getHTML(id, page) {
+        return axiosConfig.get(`get-html/${id}?page=${page}`, {
             responseType: "text" // Получаем текст, а не поток
             })
     },
