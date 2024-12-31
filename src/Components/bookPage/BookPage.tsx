@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react"
 import { Link, useNavigate, useParams } from "react-router-dom"
-import "./BookPage.css"
+import "./BookPage.css" 
 import { Connect } from "../../Helpers/connect.ts"
 import { BookType } from "../../types/Types"
 import { routes } from "../../Router.tsx"

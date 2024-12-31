@@ -15,12 +15,13 @@ export const Favorite = () => {
     console.log(uniqueGenres)
     return(
         <main>
-            <h1>Favorite</h1>
+            {/* <h1>Favorite</h1>
             <selection className="main-category">
             {bookList.filter(book => book.favorite === true).map(book => (
                 <Book {...book}/>
             ))}
-            </selection>
+            </selection> */}
+            <h1>В будущем тут будут хранится избранные книги</h1>
         </main>
     )
 }

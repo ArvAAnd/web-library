@@ -72,7 +72,7 @@ export const BookListAll = () => {
         <main>
             <h1>Your Books</h1>
             <section className="main-category">
-                <article className="">
+                <article className="main-add-container">
                     <button className="main-element main-element-add" onClick={() => setVisible(true)}>
                         +
                     </button>

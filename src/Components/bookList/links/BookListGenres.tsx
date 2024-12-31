@@ -6,12 +6,12 @@ import { Book } from "../../Book.tsx"
 
 export const Genres = () => {
     const [bookList, setBookList] = useState<BookListType>(getBooks)
-    console.log(bookList)
+    //console.log(bookList)
     const uniqueGenres = [...new Set(bookList.map(book => book.genre))]
-    console.log(uniqueGenres)
+    //console.log(uniqueGenres)
     return(
         <main>
-            {uniqueGenres.map(genre => (
+            {/* {uniqueGenres.map(genre => (
                 <div key={genre} >
                     <h1>{genre}</h1>
                     <selection className="main-category">
@@ -20,7 +20,8 @@ export const Genres = () => {
                     ))}
                     </selection>
                 </div>
-            ))}
+            ))} */}
+            <h1>В будущем тут будет распридиление по категориям</h1>
         </main>
     )
 }

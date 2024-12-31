@@ -1,9 +1,9 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import React from "react";
-import { Favorite } from "./Components/aside/links/BookListFavorite.tsx";
-import { Genres } from "./Components/aside/links/BookListGenres.tsx";
+import { Favorite } from "./Components/bookList/links/BookListFavorite.tsx";
+import { Genres } from "./Components/bookList/links/BookListGenres.tsx";
 import { BookPage } from "./Components/bookPage/BookPage.tsx";
-import { BookListAll } from "./Components/aside/links/BookListAll.tsx";
+import { BookListAll } from "./Components/bookList/links/BookListAll.tsx";
 
 export const routes = {
     bookPage: "/web-library/book",

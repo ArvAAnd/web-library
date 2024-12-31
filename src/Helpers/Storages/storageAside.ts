@@ -2,17 +2,21 @@ import {create} from "zustand"
 
 type State = {
     asideVisible: boolean
-    mainMargin: number
+    guideBtn: string
+    guideBtnSize: string
 }
 
 type Actions = {
     setAsideVisible: (asideVisible: boolean) => void
-    setMainMargin: (mainMargin: number) => void
+    setGuideBtn: (guideBtn: string) => void
+    setGuideBtnSize: (guideBtnSize: string) => void
 }
 
 export const useAside = create<State & Actions>((set) => ({
     asideVisible: false,
-    mainMargin: 0,
+    guideBtn: "≡",
+    guideBtnSize: "3vh",
     setAsideVisible: (asideVisible: boolean) => set({ asideVisible }),
-    setMainMargin: (mainMargin: number) => set({ mainMargin }),
+    setGuideBtn: (guideBtn: string) => set({ guideBtn }),
+    setGuideBtnSize: (guideBtnSize: string) => set({ guideBtnSize })
 }))
