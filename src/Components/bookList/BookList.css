@@ -62,6 +62,16 @@ content{
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+    overflow: hidden;
+}
+
+.main-element-book h1{
+    /* text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;  
+    -webkit-line-clamp: 3; */
+    word-break: break-all;
 }
 
 .main-input{
