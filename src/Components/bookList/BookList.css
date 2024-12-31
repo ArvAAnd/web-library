@@ -86,8 +86,6 @@ content{
     height: calc(22vh + 40px);
     width: calc(35vw + 40px);
     max-width: calc(260px + 40px);
-    overflow: auto;
-    height: auto;
 }
 
 .main-element:hover{
@@ -95,7 +93,6 @@ content{
     transition: transform 0.3s ease-in-out;
     transform: scale(1.02);
     /*time transform 1s*/
-
 }
 
 

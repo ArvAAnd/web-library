@@ -24,9 +24,9 @@ header{
     background-color: #00000010;
   }
 .logo{
-    height: 5vh;
-    width: 10vw;
-    min-width: 70px;
+    height: 6vh;
+    width: 3vw;
+    min-width: 60px;
 }
 .header-midle-part{
     display: flex;
