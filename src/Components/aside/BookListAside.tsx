@@ -20,7 +20,8 @@ export const Aside = () => {
             <Link className="link" to={routes.default} onClick={changeAside}>All Books</Link>
             <Link className="link" to={routes.favorite} onClick={changeAside}>Favorite</Link>
             <Link className="link" to={routes.genres} onClick={changeAside}>Genres</Link>
-            
+            <Link className="link" to={routes.guide} onClick={changeAside}>Guide</Link>
+
         </aside>
     )
 }
