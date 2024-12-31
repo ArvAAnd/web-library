@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/web-library/static/css/main.b63d0b69.css",
-    "main.js": "/web-library/static/js/main.5d0f86e2.js",
+    "main.css": "/web-library/static/css/main.f1c2b17f.css",
+    "main.js": "/web-library/static/js/main.36a11980.js",
+    "static/media/free-icon-book-6427616.png": "/web-library/static/media/free-icon-book-6427616.9aaf02fff1bb080c72ef.png",
     "index.html": "/web-library/index.html",
-    "main.b63d0b69.css.map": "/web-library/static/css/main.b63d0b69.css.map",
-    "main.5d0f86e2.js.map": "/web-library/static/js/main.5d0f86e2.js.map"
+    "main.f1c2b17f.css.map": "/web-library/static/css/main.f1c2b17f.css.map",
+    "main.36a11980.js.map": "/web-library/static/js/main.36a11980.js.map"
   },
   "entrypoints": [
-    "static/css/main.b63d0b69.css",
-    "static/js/main.5d0f86e2.js"
+    "static/css/main.f1c2b17f.css",
+    "static/js/main.36a11980.js"
   ]
 }
